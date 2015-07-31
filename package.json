@@ -13,17 +13,17 @@
   ],
   "main": "index.js",
   "repository": {
-    "url": "git@github.com:bitpay/bitcore-wallet-client.git",
+    "url": "git@github.com:MonetaryUnit/bitcore-wallet-client.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/bitcore-wallet-client/issues"
+    "url": "https://github.com/MonetaryUnit/bitcore-wallet-client/issues"
   },
   "dependencies": {
     "async": "^0.9.0",
-    "bitcore": "^0.12.9",
-    "bitcore-payment-protocol": "^0.11.0",
-    "bitcore-wallet-utils": "^0.0.20",
+    "bitcore": "MonetaryUnit/bitcore#MUE",
+    "bitcore-payment-protocol": "MonetaryUnit/bitcore-payment-protocol#MUE",
+    "bitcore-wallet-utils": "MonetaryUnit/bitcore-wallet-utils#MUE",
     "browser-request": "^0.3.3",
     "browserify": "^9.0.3",
     "lodash": "^3.3.1",
@@ -34,7 +34,7 @@
     "uglify": "^0.1.1"
   },
   "devDependencies": {
-    "bitcore-wallet-service": "0.0.45",
+    "bitcore-wallet-service": "MonetaryUnit/bitcore-wallet-service#MUE",
     "chai": "^1.9.1",
     "coveralls": "^2.11.2",
     "grunt-jsdoc": "^0.5.8",
